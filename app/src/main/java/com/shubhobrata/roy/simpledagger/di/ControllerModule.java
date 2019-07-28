@@ -14,6 +14,7 @@ import dagger.Provides;
 @Module
 public class ControllerModule {
 
+    //Binding controller implementation to controller
     @Provides
     public Controller provideController()
     {

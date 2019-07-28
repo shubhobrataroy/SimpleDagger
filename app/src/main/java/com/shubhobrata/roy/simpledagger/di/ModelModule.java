@@ -13,6 +13,7 @@ import dagger.Provides;
 @Module
 public class ModelModule {
 
+    //Creating model instance for injecting
     @Provides
     public TestModel provideModel(){ return new TestModel(); }
 }
